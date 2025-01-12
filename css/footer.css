@@ -3,7 +3,7 @@
    
 }
 .footer-container{
-    max-width: 1200px;
+    max-width: 1400px;
     padding: 120px 20px 60px 20px;
     margin: 0 auto;
     display: grid;
@@ -35,11 +35,19 @@ footer li a{
 }
 @media(max-width:850px){
     .footer-container{
-        grid-template-columns: 1fr;
-        gap:40px
-
+        grid-template-columns:1fr 1fr 1fr;
+        gap:30px;
+        width:100%;
+        
     }
-    .footer-contato li{
+    .footer p {
+        font-size: 1rem;
+        
+    }
+    .footer li{
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        grid-template-columns: 1fr;
         font-size: 1.5rem;
+        
     }
 }
